@@ -12,6 +12,12 @@ body{
 #search-bar{
     display: none;
 }
+
+hr {
+    margin: 5em;
+}
+
+
 /* HEADER */
 header{
     width: 100%;
@@ -33,6 +39,12 @@ header .container{
 
 header h1{
     font-weight: bold;
+    margin-top: 0.5em; 
+}
+
+header div i {
+    font-size: 3em;
+    margin-top: 1em;
 }
 
 header nav ul{
@@ -44,7 +56,13 @@ header nav ul{
 header nav ul li a{
     text-decoration: none;
     color: white;
+    padding: 1em 2em;
+}
 
+a:hover {
+    color: #2056ac;
+    background-color: white;
+    border-radius: 5px;
 }
 
 /* FIN HEADER */
@@ -58,12 +76,30 @@ img{
     flex-direction: column;
 }
 
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
 
 /* FIN SECTION 1*/
 /* DEBUT SECTION 2 */
 
+h3 {
+    font-weight: bold;
+}
+
+.btn {
+    padding: 1em 2em;
+    color: white; 
+    background-color: #43AAFF;
+}
+
+#section_2 .container article p {
+    padding: 2em 0em;
+}
 
 /* FIN SECTION 2*/
+
 /* DEBUT SECTION 3 */
 
 #section_3 .container {
@@ -72,21 +108,58 @@ img{
     flex-wrap: wrap;
 }
 
+h4 {
+    font-weight: bold;
+}
+
+#section_3 .container article p {
+    padding: 2em 0em;
+}
+
 #section_3 .container article{
     width: 22%;
 }
 
-
 /* FIN SECTION 3 */
 /* DEBUT SECTION 4 */
 
+#section_4 {
+    background-color: #64ABD1;
+    margin: 4em 0em 0em 0em;
+    /* align-content: center;  */
+}
 
+#section_4 div {
+    justify-content: space-around;
+    padding: 40px;
+}
+
+#section_4 div article i {
+    font-size: 3em;
+    color: grey;
+}
+
+#section_4 div article p {
+    color: grey;
+}
 
 /* FIN SECTION 4 */
 /* DEBUT FOOTER */
 
 footer{
     background-color: #2056ac;
+    padding: 40px;
+}
+
+footer p {
+    color: white;
+}
+
+footer aside div i {
+    background-color: #64ABD1;
+    padding: 10px;
+    margin: 5px;
+    color: white;
 }
 
 /* FIN FOOTER */
