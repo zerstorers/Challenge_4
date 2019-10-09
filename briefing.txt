@@ -1,0 +1,40 @@
+== Exercice n°4 : Undeviating ==
+
+- Couleur de fond : #2056ac
+
+titre :
+- h1
+- font : 'Questrial' :
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" rel="stylesheet" />
+- gras
+- l'icône au dessous est à prendre dans FontAwesome
+
+
+barre de navigation :
+- font : 'Questrial'
+- couleur du texte : #fff et #2056ac au survol
+- rollover : au survol le fond en forme d'onglet doit apparaitre derriere le texte (et celui ci doit devenir bleu au lieu de blanc
+
+Image :
+- l'image fais 1200px de large, ce qui correspond à la zone de travail principal de ce projet
+
+Sous-titre :
+- h2
+- font : 'Questrial'
+- gras
+
+texte général :
+- font : 'Questrial'
+
+Sous sous-titre :
+- h3
+- gras
+
+Sous sous sous-titre :
+- h4
+- gras
+
+Boutons et icônes sociales :
+- Fond : #64ABD1
+- Pas de rollover
+- On utilise FontAwesome pour les icônes sociales (les 3 grosses icones viennent aussi de FontAwesome)
